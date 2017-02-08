@@ -548,6 +548,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 #     'weblate.trans.checks.source.MultipleFailingCheck',
 # )
 
+CHECK_LIST = ()
+
 # List of automatic fixups
 # AUTOFIX_LIST = (
 #     'weblate.trans.autofixes.whitespace.SameBookendingWhitespace',
@@ -555,6 +557,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 #     'weblate.trans.autofixes.chars.RemoveZeroSpace',
 #     'weblate.trans.autofixes.chars.RemoveControlChars',
 # )
+
+AUTOFIX_LIST = ()
 
 # List of scripts to use in custom processing
 # POST_UPDATE_SCRIPTS = (
