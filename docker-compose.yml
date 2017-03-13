@@ -7,6 +7,7 @@ services:
       - cache
     volumes:
       - weblate-data:/app/data
+      - /backup/weblate:/backup/weblate
     env_file:
       - ./weblate/environment
     restart: always
@@ -29,6 +30,7 @@ services:
     env_file:
       - ./weblate/environment
     volumes:
+      - /backup/weblate:/backup/weblate
       - postgres-data:/var/lib/postgresql/data
     restart: always
   cache:
